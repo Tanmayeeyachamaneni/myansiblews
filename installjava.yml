@@ -11,6 +11,6 @@
   - name: install java on redhat
     yum:
       name:
-      state: started
+      state: present
     when: ansible_os_family=="RedHat"
     
