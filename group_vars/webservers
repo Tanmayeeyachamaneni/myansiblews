@@ -2,5 +2,5 @@
 
 apachevar: apache2
 redhatvar: httpd
-myjavaonubuntu: openjdk-11-jre
+myjavaonubuntu: openjdk-8-jre
 myjavaonredhat: java-1.8.0-openjdk
