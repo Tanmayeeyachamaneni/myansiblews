@@ -5,6 +5,3 @@
 [appservers]
 172.31.12.395
 
-[webservers:vars]
-apachevar=apache2
-redhatvar=httpd

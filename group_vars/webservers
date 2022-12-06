@@ -1,4 +1,4 @@
 ---
 
-apachevar=apache2
-redhatvar=httpd
+apachevar: apache2
+redhatvar: httpd
