@@ -3,15 +3,15 @@ hosts: webservers
 become: yes
 tasks:
  - name: install wget
-    apt:
+   apt:
      name: wget
      state: present
  - name: install tree
-    apt:
+   apt:
       name: tree
       state: present
  - name: install git
-    apt: 
+   apt: 
        name: git
        state: present
           
