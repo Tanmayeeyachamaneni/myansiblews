@@ -10,10 +10,10 @@
   - name: want to send static file to ansible nodes
     copy:
       src: static.txt
-      dst: /home/ubuntu/static.txt
+      dest: /home/ubuntu/static.txt
 
   - name: want to send dynamic file to ansible nodes
     template:
        src: dynamic
-       dst: /var/www/html/index.html
+       dest: /var/www/html/index.html
    
