@@ -14,6 +14,6 @@
 
   - name: want to send dynamic file to ansible nodes
     template:
-       src: dynamic
+       src: dynamic.j2
        dest: /var/www/html/index.html
    
